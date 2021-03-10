@@ -47,10 +47,23 @@ El usuario puede acceder a su lista creada y disfrutar de la música mediante el
 ## Instalación
 
 Hacer un git clone para importar el proyecto y posteriormente escribir por consola desde la ruta:
+
+
+```
 npm install
+```
+
+```
 npm run serve
+```
+
+```
 npm run build
+```
+
+```
 npm run lint
+```
 
 Una vez instalados todos los paquetes, acceder a la carpeta api y escribir:
 node app.js
@@ -84,27 +97,4 @@ Francisco Javier Bueno - email@example.com
 
 
 
-# my-tavels-app
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
