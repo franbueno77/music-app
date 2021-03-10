@@ -28,7 +28,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Sobre el proyecto
 
-<img src="imagen.jpg" alt="Logo" width="800" height="800">
+
 
 Este proyecto es  una plataforma enfocada a la gestión de archivos de audio, donde el usuario puede subir sus canciones, registrarlas con su título, nombre del grupo al que pertenece, y género.
 El usuario puede acceder a su lista creada y disfrutar de la música mediante el reproductor que incorpora. También tiene la opción de que el usuario pueda borrar alguna canción de la lista y así poder gestionarla.
