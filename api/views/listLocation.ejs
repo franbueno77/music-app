@@ -1,0 +1,36 @@
+<%- include("template/header") -%>
+<body>
+    <h1>Ciudades</h1>
+    <a  href="/create" type="button" class="btn btn-success">Create new location</a>
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Country</th>
+                <th scope="col">City</th>
+                <th scope="col">Coor X</th>
+                <th scope="col">Coor Y</th>
+
+              </tr>
+            </thead>
+            <tbody>
+        <% arrayLoc.forEach((item)=>{%> 
+              
+                <tr>
+                <th scope="row"></th>
+                <td> <%=item.country%> </td>
+                <td> <%=item.city%> </td>
+                <td> <%=item.coorx%> </td>
+                <td> <%=item.coory%> </td>
+                <td><a href="/<%=item._id%>" type="button" class="btn btn-warning">Details</a>  
+                <a href="/edit/<%=item._id%>" type="button" class="btn btn-dark ">Edit</a>  
+                <a href="/delete/<%=item._id%>" type="button" class="btn btn-danger">Delete</a></td>  
+              
+              </tr>
+        <%});%> 
+
+            </tbody>
+          </table>
+
+</body>
+</html>

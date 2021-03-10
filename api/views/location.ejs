@@ -1,0 +1,26 @@
+<%- include("template/header") -%>
+<body>
+    
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Country</th>
+        <th scope="col">City</th>
+        <th scope="col">Coor X</th>
+        <th scope="col">Coor Y</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <th scope="row"></th>
+        <td> <%=location.country%> </td>
+        <td> <%=location.city%> </td>
+        <td> <%=location.coorx%> </td>
+        <td> <%=location.coory%> </td>
+      </tr>
+    </tbody>
+  </table>
+  <a href="../" type="button" class="btn btn-dark">Back</a>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<%- include("template/header") -%>
+<body>
+    <h1>Create a new location</h1>    
+
+    <form action="/" method="POST" >
+        <div class="mb-3">
+          <input type="text" name="country" class="form-control" placeholder="Country" id="country" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <input type="text" name="city"placeholder="City" class="form-control" >
+        </div>
+        <div class="mb-3">
+            <input type="number"  name="coorx" step="any" placeholder="CoorX" class="form-control" >
+          </div>
+          <div class="mb-3">
+            <input type="number"  name="coory" step="any" placeholder="CoorY" class="form-control" >
+          </div>
+        <button type="submit" class="btn btn-success">Create</button>
+        <a href="../" type="submit" class="btn btn-danger">Back</a>
+
+      </form>
+</body>
+</html>
