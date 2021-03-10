@@ -5,23 +5,7 @@
 
 
 <!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary>Contenido</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">Sobre el proyecto</a>
-      <ul>
-        <li><a href="#built-with">Tecnologías usadas</a></li>
-      </ul>  
-    <li>
-      <a href="#getting-started">Instalación</a>
-      <ul>
-      </ul>
-    </li>
-    <li><a href="#usage">Uso</a></li>
-    <li><a href="#contact">Contacto</a></li>
-  </ol>
-</details>
+
 
 
 
